@@ -56,7 +56,7 @@ namespace sw::core
 		void simulate();
 
 	private:
-		void cleenDead();
+		void cleanDead();
 	};
 
 }

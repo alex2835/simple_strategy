@@ -54,7 +54,7 @@ namespace sw::core
 
 	bool World::simulateTick()
 	{
-		cleenDead();
+		cleanDead();
 
 		size_t aliveUnits = 0;
 		size_t activeUnits = 0;
@@ -76,7 +76,7 @@ namespace sw::core
 		while (simulateTick());
 	}
 
-	void World::cleenDead()
+	void World::cleanDead()
 	{
 		for (size_t i = 0; i < _units.size();)
 		{

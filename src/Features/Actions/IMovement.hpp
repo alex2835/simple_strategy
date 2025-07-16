@@ -6,5 +6,6 @@ namespace sw::features
 	{
 	public:
 		virtual bool move(core::IUnit& self, core::World&) = 0;
+		virtual ~IMovement() {}
 	};
 }
